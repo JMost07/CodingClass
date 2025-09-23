@@ -27,7 +27,7 @@ The maximum value for a 64 bit integer is
 9,223,372,036,854,775,807
 nine quintillion, two hundred twenty-three quadrillion, three hundred seventy-two trillion, thirty-six billion, eight hundred fifty-four million, seven hundred seventy-five thousand, eight hundres seven
 #then there a decimals and floats. We won't be working with a lot of numbers but you should be aware of their types.
-
+#
 
 #what happens if we put quotes around an integer
 $ThreeString = "3"
