@@ -63,6 +63,7 @@ $voice.Volume = $Volume
 $voice.speak($Line) | Out-Null
 }
 
+function Start-Bible {
 # Load Windows Forms
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
@@ -123,7 +124,7 @@ $form.Controls.Add($textVerse)
 
 # --- Play Button ---
 $btnPlay = New-Object System.Windows.Forms.Button
-$btnPlay.Text = "🔊 Play Verse"
+$btnPlay.Text = "▶ Play Verse"
 $btnPlay.Location = New-Object System.Drawing.Point(20,270)
 $btnPlay.Size = New-Object System.Drawing.Size(440,30)
 $form.Controls.Add($btnPlay)
@@ -175,5 +176,4 @@ $btnPlay.Add_Click({
 
 # Show GUI
 [void]$form.ShowDialog()
-
-
+}
