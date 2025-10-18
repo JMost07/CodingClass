@@ -5,7 +5,7 @@ $Name = "Joshua"
 $sentence = "Hello $Name, $words"
 $sentence
 
-
+#boolean
 [bool]$TrueStatus = $True
 $TrueStatus
 $Wrong = $false
@@ -51,17 +51,3 @@ $RightNow = 1758493424
 $date = Get-Date -Format yyyyMMddHHmm
 $date
 
-
-
-if ($WantToCode -eq $true) {
-    $YouWillBeThere = $true
-    $CoolFactor = 100
-} else {
-    $YouWillBeThere = $false
-    $CoolFactor = 0
-}
-
-
-
-$YouWillBeThere
-$CoolFactor
